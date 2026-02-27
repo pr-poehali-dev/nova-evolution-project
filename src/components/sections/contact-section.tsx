@@ -52,9 +52,8 @@ export function ContactSection() {
             </div>
 
             <div className="space-y-4 md:space-y-8">
-              <a
-                href="mailto:agroholod@mail.ru"
-                className={`group block transition-all duration-700 ${
+              <div
+                className={`transition-all duration-700 ${
                   isVisible ? "translate-x-0 opacity-100" : "-translate-x-16 opacity-0"
                 }`}
                 style={{ transitionDelay: "200ms" }}
@@ -63,10 +62,13 @@ export function ContactSection() {
                   <Mail className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Email</span>
                 </div>
-                <p className="text-base text-foreground transition-colors group-hover:text-foreground/70 md:text-2xl">
-                  agroholod@mail.ru
-                </p>
-              </a>
+                <a href="mailto:tepaevadi@yandex.ru" className="block text-base text-foreground transition-colors hover:text-foreground/70 md:text-2xl">
+                  tepaevadi@yandex.ru
+                </a>
+                <a href="mailto:Asya24Andriyanova02@yandex.ru" className="block text-base text-foreground transition-colors hover:text-foreground/70 md:text-xl">
+                  Asya24Andriyanova02@yandex.ru
+                </a>
+              </div>
 
               <div
                 className={`transition-all duration-700 ${
@@ -78,7 +80,7 @@ export function ContactSection() {
                   <MapPin className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Локация</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">ООО «АгроХолод», Ростов-на-Дону</p>
+                <p className="text-base text-foreground md:text-2xl">Территория ООО «АгроХолод», Ростов-на-Дону</p>
               </div>
 
               <div
