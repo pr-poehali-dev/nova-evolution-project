@@ -19,11 +19,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Здоровье
+                Пробиотик
                 <br />
-                с первого
+                нового
                 <br />
-                <span className="text-foreground/40">укуса</span>
+                <span className="text-foreground/40">поколения</span>
               </h2>
             </div>
 
