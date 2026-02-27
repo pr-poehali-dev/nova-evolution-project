@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Применение
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Как работает «Биосин»</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Профилактика дисбактериозов",
+              description: "Восстанавливает и поддерживает здоровую микрофлору кишечника, предотвращая массовые заболевания",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Повышение продуктивности",
+              description: "Улучшает усвоение корма и питательных веществ — поголовье растёт быстрее при меньших затратах",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Без антибиотиков",
+              description: "Натуральный пробиотический комплекс: безопасен, не вызывает резистентности, разрешён для органического производства",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Простое применение",
+              description: "Добавляется в корм или воду по схеме, не требует специального оборудования или изменения рациона",
               direction: "bottom",
             },
           ].map((service, i) => (
