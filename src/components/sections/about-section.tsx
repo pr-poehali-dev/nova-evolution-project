@@ -34,10 +34,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                «Биосин» — инновационная кормовая добавка для профилактики дисбактериозов и нормализации микрофлоры ЖКТ у птицы, свиней и крупного рогатого скота.
+                Создан совместно с ЮФУ, ДГТУ и СтГАУ на основе штамма Bacillus amyloliquefaciens В-1895 с генетическим паспортом. Технология удостоена Малой золотой медали «Росбиотех-2012».
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Повышает эффективность откорма, улучшает продуктивность и сохранность поголовья без антибиотиков.
+                Выпускается в двух формулах: «Биосин» для птицы и свиней и «Биосин ФИШ» для рыбы и объектов аквакультуры.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats with creative layout */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "+18%", label: "Прирост массы", sublabel: "У откормочного поголовья", direction: "right" },
-              { value: "-40%", label: "Падёж", sublabel: "Снижение смертности молодняка", direction: "left" },
-              { value: "3 вида", label: "Животных", sublabel: "Птица, свиньи, КРС", direction: "right" },
+              { value: "+15,7%", label: "Темп роста", sublabel: "Подтверждено в аквакультуре (Ponomareva, 2024)", direction: "right" },
+              { value: "-25%", label: "Расход корма", sublabel: "Снижение кормового коэффициента", direction: "left" },
+              { value: "100%", label: "Титр при 125°C", sublabel: "Выдерживает стандартную экструзию", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {

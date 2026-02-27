@@ -261,7 +261,7 @@ export default function Index() {
         <section className="flex min-h-screen w-screen shrink-0 flex-col justify-end px-6 pb-16 pt-24 md:px-12 md:pb-24">
           <div className="max-w-3xl">
             <div className="mb-4 inline-block animate-in fade-in slide-in-from-bottom-4 rounded-full border border-foreground/20 bg-foreground/15 px-4 py-1.5 backdrop-blur-md duration-700">
-              <p className="font-mono text-xs text-foreground/90">Пробиотическая кормовая добавка · ООО «АгроХолод»</p>
+              <p className="font-mono text-xs text-foreground/90">Пробиотические кормовые добавки · ООО «АгроХолод»</p>
             </div>
             <h1 className="mb-6 animate-in fade-in slide-in-from-bottom-8 font-sans text-6xl font-light leading-[1.1] tracking-tight text-foreground duration-1000 md:text-7xl lg:text-8xl">
               <span className="text-balance">
@@ -270,7 +270,7 @@ export default function Index() {
             </h1>
             <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
               <span className="text-pretty">
-                Комплексный пробиотик на основе Bacillus amyloliquefaciens В-1895 для нормализации микрофлоры ЖКТ, повышения сохранности и продуктивности птицы и свиней — без антибиотиков.
+                Линейка пробиотиков на основе Bacillus amyloliquefaciens В-1895 для птицы, свиней и аквакультуры. Без антибиотиков — выдерживает экструзию при 125°C с сохранением 100% титра.
               </span>
             </p>
             <div className="flex animate-in fade-in slide-in-from-bottom-4 flex-col gap-4 duration-1000 delay-300 sm:flex-row sm:items-center">
